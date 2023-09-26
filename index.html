@@ -1,0 +1,48 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>First JS HAndle Bars Project</title>
+
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js" 
+            integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+        </script>
+
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="CSS/styles.css">
+
+    </head>
+    <body>
+        <h1>My Favorite Characters</h1>
+        <ul class="character-list-container"></ul>
+
+        <script id="character-template" type="text/x-handlebars-template">
+            {{#each characters}}
+            <li class="character">
+                <img src="Images/{{shortCode}}">
+                <h2>{{@index}} {{name}}</h2>
+                <p>Home: {{home}}</p>
+                {{#if location}}<p>Location: {{location}}</p>{{/if}}
+                {{#unless location}}<p>Location is unknown...</p>{{/unless}}
+            </li>
+            {{/each}}
+        </script>
+
+        
+	    <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous">
+        </script>
+        <script src="JS/characters.js"></script>
+    </body>
+</html>
