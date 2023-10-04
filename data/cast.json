@@ -1,0 +1,60 @@
+{
+    "characters": [
+        {
+            "id": "0",
+            "name": "Toothless",
+            "shortCode": "toothless.jpg",
+            "home": "berk",
+            "class": {
+                "name": "Strike",
+                "seat": "",
+                "email": "",
+                "quote": ""
+            },
+            "location": null,
+            "bio": "ROAR!\nSpeed: unknown.\nSize: unknown"
+        },
+        {
+            "id": "1",
+            "name": "Viggo Grimborn",
+            "shortCode": "viggo-grimborn.jpg",
+            "home": "unknown",
+            "class": {
+                "name": "Dragon Hunter",
+                "seat": "Chief",
+                "email": "vgrimborn@example.com",
+                "quote": "Pieces, as with people, are expendable. No one is irreplaceable."                
+            },
+            "location": "on a ship",
+            "bio": "I'm a former dragon Hunter that has since learned to befriend dragons rather than hunt them."
+        },
+        {
+            "id": "2",
+            "name": "Zuko",
+            "shortCode": "zuko.jpg",
+            "home": "Fire Nation",
+            "class": {
+                "name": "Prince",
+                "seat": "Fire Nation Capital",
+                "email": "zuko@example.com",
+                "quote": "That\\'s Rough, Buddy."
+            },
+            "location": null,
+            "bio": "I'm the Firelord of the Fire nation."
+        },
+        {
+            "id": "3",
+            "name": "Aang",
+            "shortCode": "avatar_aang.png",
+            "home": "Southern Air Temple",
+            "class": {
+                "name": "Avatar",
+                "seat": "",
+                "email": "aang@example.com",
+                "quote": "The past can be a great teacher."                
+            },
+            "location": "in the sky with Opa",
+            "bio": "I'm the Avatar. I keep the world safe from evil."
+        }
+    ]
+}

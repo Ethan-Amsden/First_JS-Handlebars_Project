@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 
+.btn {
+    font-size: 1rem;
+    margin: 2%;
+}
+
+.character-bio-container {
+    border-bottom: 2px solid GoldenRod;
+    border-left: 2px solid GoldenRod;
+    border-right: 2px solid GoldenRod;
+    padding: 1rem;
+}
+
+.isClosed {
+    /*background: #007;*/
+    border: 2px solid GoldenRod;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black inset;
+    color: GoldenRod;
+    padding: 0.2rem 2rem;
+    text-decoration: none;
+}
+
+.isClosed:hover {
+    box-shadow: 0 0 30px white inset;
+}
+
 html {
     background-color: black;
     color: white;
@@ -18,5 +44,5 @@ li {
     list-style-type: none;
     padding: 1rem;
     margin: 2rem 0;
-    width: 11rem;
+    width: 20rem;
 }
