@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
 
 .btn {
+    background-color: black;
     font-size: 1rem;
     margin: 2%;
 }
 
 .character-bio-container {
-    border-bottom: 2px solid GoldenRod;
-    border-left: 2px solid GoldenRod;
-    border-right: 2px solid GoldenRod;
     padding: 1rem;
 }
 
@@ -24,6 +22,10 @@
 
 .isClosed:hover {
     box-shadow: 0 0 30px white inset;
+}
+
+.hide {
+    display: none;
 }
 
 html {

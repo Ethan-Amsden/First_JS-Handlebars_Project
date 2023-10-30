@@ -1,7 +1,6 @@
 {
     "characters": [
         {
-            "id": "0",
             "name": "Toothless",
             "shortCode": "toothless.jpg",
             "home": "berk",
@@ -12,10 +11,10 @@
                 "quote": ""
             },
             "location": null,
-            "bio": "ROAR!\nSpeed: unknown.\nSize: unknown"
+            "citation": "https://dragons.fandom.com/wiki/Toothless",
+            "bio": "Toothless was the dragon mount and best friend of Hiccup Horrendous Haddock III and the king of the dragons on Berk. He is the most powerful dragon known and is famous with Hiccup for ending the war between Vikings and dragons and for uniting the two races together. He is also responsible for bringing the dragons of Berk to the Hidden World, the ancestral homeward of all dragons, where he would remain forevermore."
         },
         {
-            "id": "1",
             "name": "Viggo Grimborn",
             "shortCode": "viggo-grimborn.jpg",
             "home": "unknown",
@@ -26,10 +25,10 @@
                 "quote": "Pieces, as with people, are expendable. No one is irreplaceable."                
             },
             "location": "on a ship",
-            "bio": "I'm a former dragon Hunter that has since learned to befriend dragons rather than hunt them."
+            "citation":"https://howtotrainyourdragon.fandom.com/wiki/Viggo_Grimborn",
+            "bio": "Viggo Grimborn was the leader of the Dragon Hunters who wanted to use the Dragon Eye in order to hunt, capture, and sell dragons for profit. In his last days, he learned to respect dragons and allied with the Riders. He was a primary antagonist in Dragons: Race to the Edge."
         },
         {
-            "id": "2",
             "name": "Zuko",
             "shortCode": "zuko.jpg",
             "home": "Fire Nation",
@@ -40,10 +39,10 @@
                 "quote": "That\\'s Rough, Buddy."
             },
             "location": null,
-            "bio": "I'm the Firelord of the Fire nation."
+            "citation":"https://avatar.fandom.com/wiki/Zuko",
+            "bio": "With support from his paternal uncle, General Iroh, and after much internal struggle and turmoil, Zuko grew disillusioned and rejected Ozai and his model of the Fire Nation. He instead joined the Avatar's group to become Aang's lifelong friend and firebending mentor and was determined to end the war and restore both his and the Fire Nation's honor."
         },
         {
-            "id": "3",
             "name": "Aang",
             "shortCode": "avatar_aang.png",
             "home": "Southern Air Temple",
@@ -54,7 +53,8 @@
                 "quote": "The past can be a great teacher."                
             },
             "location": "in the sky with Opa",
-            "bio": "I'm the Avatar. I keep the world safe from evil."
+            "citation":"https://avatar.fandom.com/wiki/Aang",
+            "bio": "Shortly before the beginning of the Hundred Year War, Aang was frozen in an iceberg for a hundred years; he later emerged, still biologically twelve years old, into a world engulfed by war. During his absence, the Fire Nation had waged war upon the other nations and managed to completely wipe out the pacifistic Air Nomads. It fell to Aang, the Avatar and the last airbender, to end the War by mastering the other three elements and defeating Fire Lord Ozai."
         }
     ]
 }

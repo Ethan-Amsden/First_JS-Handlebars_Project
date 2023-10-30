@@ -21,12 +21,12 @@
         <link rel="stylesheet" href="CSS/styles.css">
 
     </head>
-    <body class="page-charatcer-details">
+    <body class="page-character-details">
         <h1>My Favorite Characters | Character Details</h1>
         <section class="character-list-container"></section>
 
         <script id="character-template" type="text/x-handlebars-template">
-            {{#each characters}}
+
             <div class="character">
                 
                 <div class="char-card">
@@ -47,14 +47,16 @@
                     {{#if location}}<p>Location: {{location}}</p>{{/if}}
                     {{#unless location}}<p>Location is unknown...</p>{{/unless}}
                 </div>
-                
-                <a href="#">Back</a>
+
+                <a href="index.html" class="btn view-details">Back</a>
 
             </div>
-            <div class="character-bio-container">
-                <p>{{bio}}</p>
+
+            <div class="character-bio-container hide">
+                <p><strong>BIO:</strong> {{bio}}</p>
+                <a href="{{citation}}">{{citation}}</a>
             </div>
-            {{/each}}
+
         </script>
 
         

@@ -25,9 +25,10 @@
         <h1>My Favorite Characters</h1>
         <ul class="character-list-container"></ul>
 
-        <script id="character-template" type="text/x-handlebars-template">
+        <script id="character-template" type="text/x-handlebars-template"><!--Start handlebars Section one-->
             {{#each characters}}
             <li class="character">
+
                 <div class="char-card">
                     <img src="Images/{{shortCode}}">
 
@@ -46,10 +47,21 @@
                     {{#if location}}<p>Location: {{location}}</p>{{/if}}
                     {{#unless location}}<p>Location is unknown...</p>{{/unless}}
                 </div>
-                <a href="character-details.html?id={{id}}" class="btn isClosed view-details">View Details &#8674;</a>
+                <!--
+                <div class="character-bio-container hide">
+                    <p><strong>BIO:</strong>
+                        {{bio}}
+                    </p>
+                    <a href="{{citation}}">{{citation}}</a>
+                </div>
+
+                <button class="btn isClosed view-details">View Details &#8674;</button><br>
+                -->
+                <a href="character-details.html?id={{@index}}" class="btn isClosed view-details">View Character Page &#8674;</a>
+
             </li>
             {{/each}}
-        </script>
+        </script><!--End handlebars Section one-->
 
         
 	    <script

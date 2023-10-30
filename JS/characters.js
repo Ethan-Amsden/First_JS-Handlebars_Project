@@ -29,19 +29,34 @@ $(document).ready(function(){
 
     var compiledCharTemp = Handlebars.compile(characterTemplate);
 
+    
     var characterId = getParameterByName("id");
     console.log("character id: ", characterId);
 
     $.ajax("./data/cast.json").done(function(cast){
-        //console.log(cast);
-        $(".character-list-container").html(compiledCharTemp(cast));
-
         
+        if ($("body").hasClass("page-character-details")) 
+        {
+            $(".character-list-container").html(compiledCharTemp(cast.characters[characterId]));
+        }
+        else 
+        {
+            $(".character-list-container").html(compiledCharTemp(cast));
+        }
+
+        /*
+        $(".view-details").on("click", function(e) {
+            e.preventDefault();
+            console.log("expand details");
+        });
+        */
     });
 
     $(".character-list-container").on("click", ".view-details", function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         console.log("expand details");
+
+        
     });
     
 });
